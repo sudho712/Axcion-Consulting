@@ -4,12 +4,10 @@ session_start(); // Start a new session or resume the existing one
 // Enable error reporting for debugging
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
-
-// Database connection details
 $servername = "localhost";
-$username = "onmxcqly_rightwayadmin";
-$password = "PortfolioResponse123";
-$dbname = "onmxcqly_rightwaydb";
+$username = ""; // your username 
+$password = ""; // your password
+$dbname = ""; //db name
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
