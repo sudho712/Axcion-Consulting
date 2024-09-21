@@ -3,9 +3,9 @@ session_start(); // Start a new session or resume the existing one
 
 // Database connection details
 $servername = "localhost";
-$username = "onmxcqly_rightwayadmin";
-$password = "PortfolioResponse123";
-$dbname = "onmxcqly_rightwaydb";
+$username = ""; // your username 
+$password = ""; // your password
+$dbname = ""; //db name
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
